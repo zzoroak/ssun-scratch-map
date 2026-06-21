@@ -51,7 +51,7 @@ function render() {
     .style("fill", (feature) => {
       const region = getRegion(feature);
       return region?.visited
-        ? "#FFD166" : null;
+        ? "#FFE8A3" : null;
     })
     .on("pointermove", (event, feature) => showTooltip(event, feature))
     .on("pointerleave", hideTooltip);
@@ -69,7 +69,7 @@ function renderList() {
       const swatch = document.createElement("span");
       swatch.className = "swatch";
       if (region.visited) {
-        swatch.style.background = "#FFD166" || config.defaultVisitedColor;
+        swatch.style.background = "#FFE8A3" || config.defaultVisitedColor;
       }
 
       const label = document.createElement("span");
