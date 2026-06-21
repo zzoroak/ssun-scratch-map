@@ -1,13 +1,15 @@
 :root {
   color-scheme: light dark;
-  --bg: #f6f4ef;
-  --panel: #ffffff;
+
+  --bg: #F7F8FA;
+  --panel: #FFFFFF;
   --text: #172026;
-  --muted: #66727c;
-  --line: #d7d1c7;
-  --empty: #ffffff;
-  --stroke: #9aa4ad;
-  --shadow: 0 18px 48px rgba(25, 34, 42, 0.12);
+  --muted: #6B7280;
+  --line: #E5E7EB;
+  --empty: #FFFFFF;
+  --stroke: #B8C0CC;
+
+  --shadow: 0 18px 48px rgba(25, 34, 42, 0.10);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -200,7 +202,14 @@ h2 {
     min-height: 420px;
   }
 
+  .side-panel {
+    overflow: visible;
+  }
+
   .region-list {
-    height: 280px;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    padding: 8px;
   }
 }
