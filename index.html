@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>한국 여행 지도 🎡</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="map-panel" aria-label="스크래치 여행 지도">
+        <div class="map-header">
+          <div>
+            <h1>한국 여행 지도 🎡</h1>
+          </div>
+          <div class="stats" aria-live="polite">
+            <span id="visited-count">0</span>
+            <span>/</span>
+            <span id="total-count">0</span>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <svg id="map" role="img" aria-label="한국 방문 지역 지도"></svg>
+          <div id="tooltip" class="tooltip" hidden></div>
+        </div>
+      </section>
+
+      <aside class="side-panel" aria-label="지역 목록">
+        <div class="side-header">
+          <h2>지역</h2>
+          <span id="percent">0%</span>
+        </div>
+        <div id="region-list" class="region-list"></div>
+      </aside>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
