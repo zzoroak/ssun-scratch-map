@@ -69,7 +69,7 @@ function renderList() {
       const swatch = document.createElement("span");
       swatch.className = "swatch";
       if (region.visited) {
-        swatch.style.background = region.color || config.defaultVisitedColor;
+        swatch.style.background = "#FFD166" || config.defaultVisitedColor;
       }
 
       const label = document.createElement("span");
