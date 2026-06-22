@@ -128,6 +128,14 @@ h2 {
 .region:hover {
   opacity: 0.82;
 }
+.region-emoji {
+  font-size: clamp(15px, 1.9vmin, 20px);
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(0 1px 2px rgba(255, 255, 255, 0.95)) drop-shadow(0 1px 3px rgba(23, 32, 38, 0.28));
+}
 
 .tooltip {
   position: fixed;
