@@ -919,9 +919,9 @@
       "codes": [
         "34020"
       ],
-      "visited": false,
+      "visited": true,
       "color": "#2f80ed",
-      "emoji": null
+      "emoji": "🌰"
     },
     {
       "id": "34010",
@@ -929,7 +929,7 @@
       "codes": [
         "34010"
       ],
-      "visited": false,
+      "visited": true,
       "color": "#2f80ed",
       "emoji": null
     },
@@ -1329,7 +1329,7 @@
       "codes": [
         "31220"
       ],
-      "visited": false,
+      "visited": true,
       "color": "#2f80ed",
       "emoji": null
     },
