@@ -19,8 +19,8 @@ const REGION_DISPLAY_ADJUSTMENTS = {
   },
   "23320": {
     targetCenter: [126.58, 37.48],
-    scale: 0.45,
-    minArea: 0,
+    scale: 0.4,
+    minArea: 0.001,
   },
 };
 

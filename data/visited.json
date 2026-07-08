@@ -1399,7 +1399,7 @@
       "codes": [
         "31150"
       ],
-      "visited": false,
+      "visited": true,
       "color": "#2f80ed",
       "emoji": null
     },
@@ -1459,7 +1459,7 @@
       "codes": [
         "31090"
       ],
-      "visited": false,
+      "visited": true,
       "color": "#2f80ed",
       "emoji": null
     },
@@ -1779,7 +1779,7 @@
       "codes": [
         "11140"
       ],
-      "visited": false,
+      "visited": true,
       "color": "#2f80ed",
       "emoji": null
     },
